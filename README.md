@@ -107,4 +107,12 @@ numbers = [139] – сотвествует слову три
 1) Прототип доступен по ссылке: https://colab.research.google.com/drive/1ugUQO-WWCQlMISFd0swq7cF6-UB8XSEA#scrollTo=p2Jv3168BEjF
 2) Ничего скачивать дополнительно не надо. Достаточно последовательно запустить все клетки.
 3) Генерация ответа происходит в последней [клетке](https://colab.research.google.com/drive/1ugUQO-WWCQlMISFd0swq7cF6-UB8XSEA#scrollTo=AVYfsCUrQ03d) секции [Пример генерации отчета](https://colab.research.google.com/drive/1ugUQO-WWCQlMISFd0swq7cF6-UB8XSEA#scrollTo=GuCwwsRh7DRk) ![изображение](https://github.com/Feodoros/lct-16-samolet/assets/23313519/498d68c9-f319-4011-a77c-803051780e08)
-4) **ДОПОЛНЕНИЕ:** Также мы дообучили нашу собственную LLM модель на решение данной задачи. Она работает локально на ГПУ (от A40) и выдает результат в виде конкретного ответа (Да\Нет) и значения скидки. Проверить второе решение можно в самой последней [клетке](https://colab.research.google.com/drive/1ugUQO-WWCQlMISFd0swq7cF6-UB8XSEA#scrollTo=OcrEfWyxmbcH&line=1&uniqifier=1).
+
+# Дополнительное решение на MyMeetLLM. 
+Также мы дообучили нашу собственную LLM модель на решение данной задачи. Она работает локально на ГПУ (от A40) и выдает результат в виде конкретного ответа (Да\Нет) и значения скидки. Проверить второе решение можно в самой последней [клетке](https://colab.research.google.com/drive/1ugUQO-WWCQlMISFd0swq7cF6-UB8XSEA#scrollTo=OcrEfWyxmbcH&line=1&uniqifier=1).
+
+**Время на ГПУ:**
+0.05 сек
+
+**Метрика F1:** 
+0.92 на train датасете. 
